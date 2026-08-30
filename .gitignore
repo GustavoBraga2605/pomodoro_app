@@ -80,3 +80,8 @@ app.*.map.json
 
 # Coverage
 coverage/
+
+# Node / Expo related
+node_modules/
+dist/
+.expo/
