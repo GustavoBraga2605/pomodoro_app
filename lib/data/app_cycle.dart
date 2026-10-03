@@ -3,7 +3,7 @@ import '../models/focus_cycle.dart';
 class AppCycle {
   AppCycle._();
 
-  static FocusCycle selected = FocusCycle.presets[2]; // 60/20 por padrão
+  static FocusCycle selected = FocusCycle.presets[2];
 
   static int get focusMinutes {
     if (selected.label == '60/20') return 1;
